@@ -12,7 +12,6 @@ function App(): JSX.Element {
 
       <Content className='p-2'>
       </Content>
-
     </AppLayout>
   )
 }

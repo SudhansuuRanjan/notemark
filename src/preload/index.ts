@@ -28,6 +28,7 @@ if(!process.contextIsolated) {
 try{
   contextBridge.exposeInMainWorld('context',{
     // Expose the electron API  
+    locale : navigator.language
   })
 }catch(error){
   console.error(error)

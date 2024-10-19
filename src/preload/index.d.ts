@@ -5,6 +5,7 @@ declare global {
     // electron: ElectronAPI
     // api: unknown
     context: {
+      locale: string
     }
   }
 }
